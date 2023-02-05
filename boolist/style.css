@@ -1,0 +1,112 @@
+/* https://colorhunt.co/palette/645cbba084dcbface2ebc7e6 */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Playfair Display", serif;
+	background: radial-gradient(
+				35.36% 35.36% at 100% 25%,
+				#0000 66%,
+				#645cbb 68% 70%,
+				#0000 72%
+			)
+			26px 26px / calc(2 * 26px) calc(2 * 26px),
+		radial-gradient(
+				35.36% 35.36% at 0 75%,
+				#0000 66%,
+				#645cbb 68% 70%,
+				#0000 72%
+			)
+			26px 26px / calc(2 * 26px) calc(2 * 26px),
+		radial-gradient(
+				35.36% 35.36% at 100% 25%,
+				#0000 66%,
+				#645cbb 68% 70%,
+				#0000 72%
+			)
+			0 0 / calc(2 * 26px) calc(2 * 26px),
+		radial-gradient(
+				35.36% 35.36% at 0 75%,
+				#0000 66%,
+				#645cbb 68% 70%,
+				#0000 72%
+			)
+			0 0 / calc(2 * 26px) calc(2 * 26px),
+		repeating-conic-gradient(#e6dcf9 0 25%, #0000 0 50%) 0 0 / calc(2 * 26px)
+			calc(2 * 26px),
+		radial-gradient(#0000 66%, #645cbb 68% 70%, #0000 72%) 0 calc(26px / 2) /
+			26px 26px #e6dcf9;
+}
+
+/* the nav-bar start */
+.nav-bar {
+	height: 55px;
+	width: 100%;
+	padding: 10px 20px;
+	background-color: #645cbb;
+	position: static;
+}
+
+.nav-bar .container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: row;
+}
+
+.nav-bar .container div {
+	width: 140px;
+	height: 100%;
+	margin-right: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+button {
+	width: 70%;
+	height: 30px;
+	border-radius: 10px;
+	border-color: #ebc7e6;
+	font-size: 18px;
+	background-color: #bface2;
+}
+
+/* the books-list start */
+
+.books-list {
+	text-align: center;
+	padding: 30px 20px;
+}
+
+.books-list h1 {
+	font-weight: 700;
+	border: 3px solid #645cbb;
+	width: 50%;
+	transform: translate(50%);
+	background-color: rgb(204, 201, 234);
+	border-radius: 10px;
+}
+.books-list .cs-container {
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap !important;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.books-list .card {
+	border-radius: 20px;
+	margin: 40px 30px;
+
+	font-weight: bold;
+	font-size: large;
+	color: #49438b;
+}
